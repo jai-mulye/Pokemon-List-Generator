@@ -3,6 +3,10 @@
 	margin: 0px;
 }
 
+body {
+	background-color: ghostwhite;
+}
+
 #logo {
 	width: 50%;
 	display: block;
@@ -21,9 +25,13 @@
 }
 
 .pokemon {
+	background-color: #f0f0f0;
 	display: inline-block;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1rem;
+	margin: 0.75rem;
+	box-shadow: 2.5px 5px 10px gray;
 }
 
 .pokemon img {
